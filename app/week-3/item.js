@@ -1,5 +1,7 @@
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent';
+import Divider from '@mui/material/Divider';
+import Chip from '@mui/material/Chip'
 
 export default function Item({ name, quantity, category }) {
   return (
@@ -16,9 +18,10 @@ export default function Item({ name, quantity, category }) {
         }}
       >
         <CardContent>
-        <div className="">
-          {name}, {quantity}, {category}
-        </div>
+            <Divider sx={{marginBottom: 1}}>
+              <Chip label={name} size="small" />
+            </Divider>
+            Quantity: {quantity} <br/> Category:{category}
         </CardContent>
       </Card>
     </li>

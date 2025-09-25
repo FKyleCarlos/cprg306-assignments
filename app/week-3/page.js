@@ -9,7 +9,7 @@ export default function Page(){
     return(
     <main className='flex justify-center p-6'>
         <Card sx={{ backgroundColor: "#0D1B2A", color: "white", 
-        width: "100%", minHeight: "90vh", borderRadius: 3, padding: 2}}>
+        width: "100%", minHeight: "90vh", borderRadius: 3, padding: 1, paddingTop: 15, marginTop: 4}}>
             <CardContent>
                 <ul className="flex flex-col items-center">
                     {items.map((item, index) => (
