@@ -22,12 +22,9 @@ export const metadata = {
 function SiteTitle() {
   return(
         <div className="flex justify-center text-center">
-          <Card sx={{ backgroundColor: "#415A77", color: "white", 
-            width: "100%", maxWidth: "200px", minHeight: "10vh", borderRadius: 3, padding: 2, position: "absolute", marginTop: "10px"}}>
-                <CardContent>
-                  <h1><Link href="/">CPRG306 ASSIGNMENTS</Link></h1>
-                </CardContent>
-          </Card>
+          <div className="bg-slate-600 text-slate-200 w-full max-w-[200px] min-h-[12vh] rounded-lg p-4 pt-8 shadow-lg mt-5 position: absolute">
+            <h1><Link href="/">CPRG306 ASSIGNMENTS</Link></h1>
+          </div>
         </div>
   )
 
