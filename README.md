@@ -44,3 +44,7 @@ Assignment Notes
     - It gets confusing learning different css component libraries along-side tailwind this early on. It's hard to target sometimes where styling should be edited.
     - I still get easily confused what im using - React, Tailwind, and other css component library. All have different ways to access styling
     - Updating UI elements is easier when coding in one screen and viewing in another is much easier since the small changes may not be visible when changing tabs on a single screen. 
+
+#Week-4
+    - Using more tailwind than installed css component packages. It's not as stylish by default but achievable with a bit more effort
+    - useState can be used with different dataTypes and initial value can be declared inside useState. Setter easily accessible and is dynamic
