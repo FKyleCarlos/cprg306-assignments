@@ -33,6 +33,8 @@ export default function NewItem(){
                 Subtract
                 </button>
             </div>
+            {quantity <= 0 ? <p className="text-rose-400">Quantity cannot go below 0</p> : <p className="text-rose-500"></p>}
+            {quantity >= 20 ? <p className="text-rose-400">Quantity cannot go above 20</p> : <p className="text-rose-500"></p>}
         </div>
     )
 }
