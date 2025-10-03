@@ -48,3 +48,4 @@ Assignment Notes
 #Week-4
     - Using more tailwind than installed css component packages. It's not as stylish by default but achievable with a bit more effort
     - useState can be used with different dataTypes and initial value can be declared inside useState. Setter easily accessible and is dynamic
+    - Use of ternary operator is concise and easy. Works exactly the same as in C# and as injectable.
