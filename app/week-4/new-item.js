@@ -9,7 +9,7 @@ export default function NewItem(){
         setQuantity(quantity + 1);
     }
 
-    function decrementQuantity(){
+    function decrementQuantity(){   
         setQuantity(quantity - 1);
     }
 
@@ -29,11 +29,11 @@ export default function NewItem(){
                 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-rose-800 dark:hover:bg-rose-950 
                 dark:focus:ring-red-900 
                 disabled:bg-rose-900 disabled:cursor-not-allowed"
-                onClick={decrementQuantity} disabled={quantity <= 0}>
+                onClick={decrementQuantity} disabled={quantity <= 1}>
                 Subtract
                 </button>
             </div>
-            {quantity <= 0 ? <p className="text-rose-400">Quantity cannot go below 0</p> : <p></p>}
+            {quantity <= 1 ? <p className="text-rose-400">Quantity cannot go below 1</p> : <p></p>}
             {quantity >= 20 ? <p className="text-rose-400">Quantity cannot go above 20</p> : <p></p>}
         </div>
     )
