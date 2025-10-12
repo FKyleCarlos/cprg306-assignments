@@ -32,7 +32,7 @@ export default function NewItem({quantity, setQuantity}){
     }
 
     return(
-        <div className="flex flex-col items-center justify-center bg-slate-400 w-full max-w-[220px] py-5 rounded-lg mx-auto">
+        <div className="flex flex-col items-center justify-center bg-slate-400 w-full max-w-[220px] py-5 m-1 rounded-lg mx-auto">
             <p className="text-lg pb-6 pt-2">Quantity: {quantity}</p>
             <div className="flex justify-around">
                 <button type="button" className="focus:outline-none text-white bg-rose-500 hover:bg-rose-800 focus:ring-4 
