@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Item from "./item";
-import items from "./item.json" assert { type:'json' };
+import items from "./items.json" assert { type:'json' };
 
 
 export default function ItemList(){
