@@ -22,7 +22,7 @@ export default function ItemList(){
 
     return(
         <div>
-            <div className="bg-slate-700 grid grid-cols-1mb-10 sm:grid-cols-1 md:grid-cols-2 rounded-lg mb-10">
+            <div className="bg-slate-700 grid grid-cols-1 mb-10 sm:grid-cols-1 md:grid-cols-2 rounded-lg mb-10">
                 <button className={`${sortBy == "name" ? "bg-emerald-600 text-slate-200" : "bg-slate-700 text-slate-200"}  rounded-lg px-5 hover:outline-2 outline-slate-500`} 
                 onClick={SortName}>
                     Name
