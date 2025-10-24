@@ -1,9 +1,8 @@
 import { useState } from "react";
 import Item from "./item";
-import items from "./item.json" assert { type:'json' };
 
 
-export default function ItemList(){
+export default function ItemList({items}){
 
     const [sortBy, setSortBy] = useState("name");
 
@@ -22,19 +21,21 @@ export default function ItemList(){
 
     return(
         <div>
-            <div className="bg-slate-700 grid grid-cols-1mb-10 sm:grid-cols-1 md:grid-cols-2 rounded-lg mb-10">
-                <button className={`${sortBy == "name" ? "bg-emerald-600 text-slate-200" : "bg-slate-700 text-slate-200"}  rounded-lg px-5 hover:outline-2 outline-slate-500`} 
-                onClick={SortName}>
-                    Name
-                </button>
-                <button className={`${sortBy == "category" ? "bg-emerald-600" : "bg-slate-700 text-slate-200"} rounded-lg px-5 hover:outline-2 outline-slate-500`} 
-                onClick={SortCategory}>
-                    Category
-                </button>
+            <div className="flex justify-center items-center">
+                <div className="bg-slate-700 grid grid-cols-1 mb-10 sm:grid-cols-1 md:grid-cols-2 rounded-lg mb-10 w-lg">
+                    <button className={`${sortBy == "name" ? "bg-emerald-600 text-slate-200" : "bg-slate-700 text-slate-200"}  rounded-lg px-5 hover:outline-2 outline-slate-500`} 
+                    onClick={SortName}>
+                        Name
+                    </button>
+                    <button className={`${sortBy == "category" ? "bg-emerald-600" : "bg-slate-700 text-slate-200"} rounded-lg px-5 hover:outline-2 outline-slate-500`} 
+                    onClick={SortCategory}>
+                        Category
+                    </button>
+                </div>
             </div>
             <div className="grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {sortedList.map((item) => (
-                    <Item key={item.id} {...item}></Item>       
+                {sortedList.map((item, index) => (
+                    <Item key={index} {...item}></Item>       
                 ))}
             </div>
         </div>
