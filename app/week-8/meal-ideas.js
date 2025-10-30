@@ -36,14 +36,14 @@ export default function MealIdeas({ingredient}){
         <div>
             {/* <p className="text-black text-lg">NO MEALS FOUND</p> */}
             {error ? <p className="text-rose-700">Error: {error}</p> : ingredient == "" ? <p className="text-rose-700">NO INGREDIENT SELECTED</p> : 
-            <p className="text-rose-700">NO MEALS FOUND FOR "{ingredient}"</p>}
+            <p className="text-rose-700">{`NO MEALS FOUND FOR "${ingredient}"`}</p>}
         </div>
     )
     }
     else{
         return(
         <div className="">
-            <p className="text-black text-lg mb-5">Meal ideas for "{ingredient}"</p>
+            <p className="text-black text-lg mb-5">{`Meal ideas for "${ingredient}"`}</p>
             <div className="grid grid-cols-3 gap-4">
                 {meals.map((item) =>(
                     <div key={item.idMeal} className="bg-slate-400 outline-slate-500 outline-2 p-5 rounded-lg text-black">
