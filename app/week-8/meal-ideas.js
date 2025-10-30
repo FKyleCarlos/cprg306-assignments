@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 export default function MealIdeas({ingredient}){
     
@@ -23,13 +23,12 @@ export default function MealIdeas({ingredient}){
         }
     }
 
-    async function loadMealIdeas(){
+    useEffect(() => {
+            async function loadMealIdeas(){
         const recipes = await fetchMealIdeas(ingredient);
         setMeals(recipes.meals)
     }
-
-    useEffect(() => {
-        loadMealIdeas()
+    loadMealIdeas();
     }, [ingredient])
 
     if(error || ingredient === "" || meals == null){
