@@ -3,6 +3,11 @@ import "./globals.css";
 import Card from '@mui/material/Card'
 import Link from "next/link";
 import { CardContent } from "@mui/material";
+import { AuthContextProvider } from "./contexts/AuthContext.js";
+ 
+// export default function Layout({ children }) {
+//   return <AuthContextProvider>{children}</AuthContextProvider>;
+// }
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +42,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
        <SiteTitle/>
-        {children}
+        <AuthContextProvider>{children}</AuthContextProvider>
       </body>
     </html>
   );
