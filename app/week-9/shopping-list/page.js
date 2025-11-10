@@ -30,31 +30,31 @@ export default function Page(){
                 <div className="flex flex-col items-center justify-center bg-slate-300 w-full h-[90vh] rounded-lg mt-12 p-5 pt-5">
                     <Link href="../week-9" className="bg-slate-600 rounded-lg px-5 py-2 text-lg">← Back</Link>
                     <div className="grid grid-cols-5 gap-10 text-center pt-10">
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                         <h2 className="bg-rose-700 rounded-lg p-5">GET OUT !!!!!!!!!!!!!!!!!!!!</h2>
-                        <h2 className="bg-rose-700 rounded-lg p-5">YOU AREN'T ALLOWED HERE!!!!</h2>
+                        <h2 className="bg-rose-700 rounded-lg p-5">YOU ARE NOT ALLOWED HERE!!!!</h2>
                     </div>
                 </div>
             </main>
