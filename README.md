@@ -49,3 +49,6 @@ Assignment Notes
     - Using more tailwind than installed css component packages. It's not as stylish by default but achievable with a bit more effort
     - useState can be used with different dataTypes and initial value can be declared inside useState. Setter easily accessible and is dynamic
     - Use of ternary operator is concise and easy. Works exactly the same as in C# and as injectable.
+
+#Week-10
+    - I can use local storage for displaying the list live. However this will make discrepancies. If the list updates successfully via local, but not in the actual database, we would be displaying inaccurate information.
